@@ -1,9 +1,9 @@
 export const commonParams = {
   g_tk: 5381,
-  format: 'jsonp',
+  notice: 0,
+  format: 'json',
   inCharset: 'utf-8',
   outCharset: 'utf-8',
-  notice: 0
 };
 
 export const options = {
@@ -11,5 +11,3 @@ export const options = {
 };
 
 export const code_ok = 0;
-
-// export default {commonParams, options , code}
